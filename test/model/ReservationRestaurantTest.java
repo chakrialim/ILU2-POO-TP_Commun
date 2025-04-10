@@ -13,7 +13,7 @@ class ReservationRestaurantTest {
 	static final int MOIS = 12;
 	static final String MESSAGE_RESA_1 = "Le 10/12\nTable 2 pour le premier service.";
 	static final String MESSAGE_RESA_2 = "Le 14/12\nTable 3 pour le deuxième service.";
-	
+
 	@BeforeAll
 	static void setUpBeforeClass() {
 		reservation = new ReservationRestaurant(JOUR, MOIS, NUM_SERVICE, NUM_TABLE);
